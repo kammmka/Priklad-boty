@@ -23,6 +23,7 @@ body {
 /* ----- zde zacni psat vlastni css ----- */
 
 body {
+   
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
 }
@@ -32,3 +33,151 @@ h1 {
     font-weight: 500;
 }
 
+.zbozi {
+    display: flex;
+    flex-direction: row;
+    width: 670px;
+    height: 440px;
+    margin-left: 80px;
+    margin-top: 80px;
+    font-family: 'Rubik', sans-serif;
+   
+    position: relative;
+    
+}
+
+.vizual {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#06d7c1,#50cc49);
+    border-radius: 3% 0 0 3%;
+    position: relative;
+    flex-basis: 50%;
+
+}
+
+.detaily {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    border-radius: 0 3% 3% 0;
+    flex-basis: 50%;
+    box-shadow: 2px 2px 8px #bcbcbc;
+    position: relative;
+}
+
+.nazev {
+    font-size: 20px;
+    font-weight: 500;
+   margin-top: 30px;
+   margin-bottom: 10px;
+}
+
+.popis {
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    margin-right: 30px;
+    border-bottom: 1px solid #06d7c1;
+}
+
+.velikosti {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin-right: 30px;
+    margin-left: 0;
+    align-items: baseline;
+
+}
+
+.slogan {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    margin-left: 30Px;
+    MARGIN-top: 15px;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.cena {
+    font-size: 28px;
+    width: 500;
+    color:white;
+    text-align: right;
+   
+}
+
+.zaruka {
+    font-size: 12px;
+    width: 400;
+    color:white;
+}
+
+.bota {
+    position: absolute;
+    right: -10px;
+    bottom: 0px;
+    
+}
+
+.cenovka {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    margin-left: 30px;
+   
+}
+
+
+.produkt {
+    color:  #959595;
+   
+    margin-top: 0;
+}
+
+.parametr {
+    margin: 0;
+    margin-top: 30px;
+    font-size: 14px;
+    width: 400;
+    padding: 0;
+}
+
+li {list-style-type:none}
+
+.vybrana {
+    color:  #f15f42;
+    border: 1px solid  #f15f42;
+    border-radius: 50%;
+    padding: 4px;
+
+
+
+}
+
+.akce {
+position: absolute;
+  bottom: 30px;
+  left: 30px;
+  background-color: #f15f42;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px #bcbcbc;
+
+}
+
+.tlacitko {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    width: 400;
+   
+    
+    
+}
